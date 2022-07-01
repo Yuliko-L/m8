@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: white;
+}
+
+h6 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.4;
+  color: #FC724D;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5rem;
+  color: #252B42;
+}
+
+.paragraph {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #737373;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.header {
+  min-height: 77.7rem;
+  background-color: #B888F8;
+}
+.header .nav {
+  min-height: 9.1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.header .nav__left-part, .header .nav__right-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.header .nav__logo {
+  margin-right: 8.1rem;
+}
+.header .nav__menu {
+  list-style: none;
+  display: flex;
+  gap: 2.1rem;
+  margin-bottom: 0;
+}
+.header .nav__login {
+  margin-right: 4.5rem;
+  margin-bottom: 0;
+}
+.header .nav__btn button {
+  width: 13.7rem;
+  height: 5.2rem;
+  background-color: #FC724D;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.title__sub {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+.title h1 {
+  font-size: 5.8rem;
+  font-weight: 700;
+  line-height: 8rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+.title__describe {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+.title__btn {
+  width: 15.3rem;
+  height: 5.2rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-right: 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  color: white;
+}
+.title__btn--main {
+  background-color: #FC724D;
+}
+.title__btn--ghost {
+  background-color: transparent;
+  border: 0.1rem solid #FC724D;
+}
+
+.activity {
+  min-height: 76.8rem;
+  padding-bottom: 11.2rem;
+  padding-top: 11.2rem;
+}
+.activity__item {
+  border: 0.1rem solid black;
+}
+.activity__item:nth-child(even) {
+  padding-top: 3.3rem !important;
+}/*# sourceMappingURL=style.css.map */
